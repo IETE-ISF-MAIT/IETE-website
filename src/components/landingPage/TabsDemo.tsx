@@ -5,6 +5,17 @@ import { Tabs } from "../ui/tabs";
 export function TabsDemo() {
     const tabs = [
         {
+            title: "GSOC, DevOps and OpenSource Event",
+            value: "gsoc-devops-opensource",
+            content: (
+                <div className="w-[80%] overflow-hidden relative h-[75%] rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-red-700 to-violet-900">
+                    <p>Join us for GSoC, DevOps, and Open Source Events—learn, innovate, and collaborate with experts!.<br></br>Speaker:Sudhanshu Dasgupta (Maintainer of Layers5 and CNCF)</p>
+                    <p>Application Deadline: October 15, 2024</p>
+                    <p>Do Join the Event to get the insights about</p>
+                </div>
+            ),
+        },
+        {
             title: "Core Team Recruitment Form 2024",
             value: "core-team-recruitment",
             content: (
@@ -33,7 +44,7 @@ export function TabsDemo() {
             content: (
                 <div className="w-[80%] overflow-hidden relative h-[75%] rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-green-400 to-green-600">
                     <p>We are excited to announce a visit to the National Board of Accreditation (NBA) in 2024.</p>
-                    <p>Date: Septemper 27, 2024</p>
+                    <p>Date: January 7, 2025</p>
                     <p>This visit will provide insights into accreditation processes and standards.</p>
                 </div>
             ),
