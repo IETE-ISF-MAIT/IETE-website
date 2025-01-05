@@ -69,7 +69,7 @@ function Footer() {
                         >
                             <FaLinkedin
                                 size={24}
-                                className="hover:text-red-400 transition-colors"
+                                className="hover:text-blue-400 transition-colors"
                             />
                         </Link>
                     </div>
