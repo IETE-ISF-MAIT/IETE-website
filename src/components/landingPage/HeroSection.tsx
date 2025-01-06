@@ -4,15 +4,24 @@ import Spline from '@splinetool/react-spline/next';
 
 const HeroSection = () => {
     return (
-        <section className="relative w-[95%] h-screen overflow-hidden mt-[-2%]">
+        <section className="relative w-[100%] h-screen overflow-hidden mt-[-2%]">
             {/* Overlay for the background */}
             <div className="absolute inset-0 bg-black opacity-40"></div>
 
+
+            <Image
+               className="absolute inset-0 z-0 w-full h-full object-cover md:w-[95%] md:h-[100%] mx-auto"
+               src="/Hero/backgound.png"
+               width={1200}
+               height={1200}
+               alt=""
+            />
+
             {/* Spline Component */}
-            <Spline
+            {/*<Spline
                 scene="https://prod.spline.design/JiFhMQ4I1hqBxQGn/scene.splinecode" 
                 className="absolute inset-0 z-0"
-            />
+            />/*}
 
             {/* Black strip to hide "Built with Spline" */}
             <div className="absolute bottom-0 left-0 w-full h-16 bg-black z-10"></div> {/* Added black strip */}

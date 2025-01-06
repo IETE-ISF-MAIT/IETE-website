@@ -5,6 +5,7 @@ import {
     FaLinkedin,
     FaMapMarkerAlt,
     FaPhone,
+    FaGithub,
 } from "react-icons/fa";
 import Link from "next/link";
 
@@ -63,7 +64,7 @@ function Footer() {
                             />
                         </Link>
                         <Link
-                            href="https://www.linkedin.com"
+                            href="https://www.linkedin.com/company/iete-mait/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -72,17 +73,27 @@ function Footer() {
                                 className="hover:text-blue-400 transition-colors"
                             />
                         </Link>
+                        <Link
+                            href="https://github.com/IETE-ISF-MAIT"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <FaGithub
+                                size={24}
+                                className="hover:text-gray-500 transition-colors"
+                            />
+                        </Link>
                     </div>
                 </div>
             </div>
 
-            <hr className="border-t border-gray-700 my-6" />
+            <hr className="border-t border-gray-700 my-5" />
 
             <div className="text-center text-sm">
                 &copy; {new Date().getFullYear()} IETE - MAIT. All rights
                 reserved.
             </div>
-            <hr className="border-t border-gray-700 my-6" />
+            <hr className="border-t border-gray-700 my-5" />
 
             <div className="text-center text-sm">
                 Made with &hearts; by Technical Team, IETE MAIT
