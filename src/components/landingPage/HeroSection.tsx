@@ -24,10 +24,10 @@ const HeroSection = () => {
             />/*}
 
             {/* Black strip to hide "Built with Spline" */}
-            <div className="absolute bottom-0 left-0 w-full h-16 bg-black z-10"></div> {/* Added black strip */}
+            <div className="absolute bottom-0 left-0 w-full h-16 bg-black z-10 "></div> {/* Added black strip */}
 
             {/* Content */}
-            <div className="relative z-20 flex flex-col items-center justify-center h-full text-center text-white px-4">
+            <div className="relative z-20 flex flex-col items-center justify-center h-full text-center bg-black bg-opacity-60 text-white px-4">
                 <h1 className="text-5xl md:text-7xl font-bold mb-4">
                     IETE MAIT
                 </h1>

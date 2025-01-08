@@ -9,7 +9,7 @@ import {
     HyperTextEvents,
     HyperTextGallery,
     HyperTextHome,
-    HyperTextProjects,
+    //HyperTextProjects,
     HyperTextTeam,
 } from "./landingPage/HyperTextDemo";
 
@@ -21,7 +21,7 @@ export default function Navbar() {
         { path: "/", label: <HyperTextHome /> },
         { path: "/team", label: <HyperTextTeam /> },
         { path: "/events", label: <HyperTextEvents /> },
-        { path: "/projects", label: <HyperTextProjects /> },
+        //{ path: "/projects", label: <HyperTextProjects /> },
         { path: "/gallery", label: <HyperTextGallery /> },
         { path: "/about", label: <HyperTextAbout /> },
     ];
