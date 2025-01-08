@@ -40,7 +40,7 @@ export function IconCloudDemo() {
   );
  
   return (
-    <div className="relative flex size-full max-w-lg items-center justify-center overflow-hidden rounded-lg border bg-background">
+    <div className="relative flex size-full max-w-lg items-center justify-center overflow-hidden bg-background">
       <IconCloud images={images} />
     </div>
   );
